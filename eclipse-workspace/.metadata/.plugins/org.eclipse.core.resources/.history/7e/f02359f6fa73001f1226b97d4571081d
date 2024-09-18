@@ -1,0 +1,12 @@
+package Corejava;
+import java.util.Scanner;
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		boolean rain=true;
+		String result=rain?"Take a umberlla":"enjoy the rain";
+		System.out.println("result");
+	}
+
+}

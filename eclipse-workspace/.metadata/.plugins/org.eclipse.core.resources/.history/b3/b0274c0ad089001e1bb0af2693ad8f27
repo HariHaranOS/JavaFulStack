@@ -1,0 +1,23 @@
+package com.project1.automation;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+public class Automation_SSS {
+
+	public static void main(String[] args) throws InterruptedException {
+		System.setProperty("webdriver.chrome.driver","D:\\chromedriver\\chromedriver-win64\\chromedriver.exe");
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://WWW.amazon.in");
+		driver.manage().window().maximize();
+		Thread.sleep(10000);
+		
+		
+		
+
+	}
+	
+}

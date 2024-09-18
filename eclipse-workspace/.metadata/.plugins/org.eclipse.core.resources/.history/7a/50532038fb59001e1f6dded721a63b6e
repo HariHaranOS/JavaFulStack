@@ -1,0 +1,38 @@
+package OopsClassandObjects;
+
+public class Oops1 
+{
+	String street;
+	String city;
+	String state;
+	public void display() 
+	{
+	System.out.println(street);
+	System.out.println(city);
+	System.out.println(state);
+	
+	}
+}
+ class Oops2
+{
+	String name;
+	int age;
+	public void display() 
+	{
+		System.out.println(name);
+		System.out.println(age);
+	}
+public static void main(String[]args) 
+{
+	Oops1 oops=new Oops1();
+	oops.city="chennai";
+	oops.state="tamil nadu";
+	oops.street="old perugaluthur";
+	
+	}
+	
+}
+	 
+	 
+	
+

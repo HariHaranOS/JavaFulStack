@@ -1,0 +1,12 @@
+package literalnotation;
+
+public class MultidimensionalArray5 {
+
+	public static void main(String[] args) {
+		
+		int [][][] Array=new int[10][20][30];
+		Array[0][0][0]=1;
+		System.out.println("Array[0][0][0]="+Array[0][0][0]);
+	}
+
+}

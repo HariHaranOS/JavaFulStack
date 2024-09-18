@@ -1,0 +1,44 @@
+package Inheritaceexample;
+
+public class Calculator 
+{
+	public int add (int n1,int n2) 
+	{
+		return n1+n2;
+	}
+	public int sub(int n1,int n2) 
+	{
+		return n1-n2;
+		
+	}
+	public int mul(int n1,int n2) 
+	{
+		return n1*n2;
+		
+	}
+	public int div(int n1,int n2) 
+	{
+		return n1/n2;
+	}
+	}
+	 class ScientificCalc extends Calculator
+	{
+		public double doublepower(int n1,int n2) 
+		{
+		return Math.pow(n1, n2);	
+		}
+	}
+	 class demo
+	 {
+		 public static void main(String args[]) 
+		 {
+			 ScientificCalc c=new ScientificCalc();
+			 int r1=c.add(7, 8);
+			 int r2=c.sub(4, 2);
+			 int r3=c.mul(9,10);
+			 int r4=c.div(90, 4);
+			 double r5=c.doublepower(90, 9);
+			 System.out.println(r1);
+			 
+		 }
+	 }

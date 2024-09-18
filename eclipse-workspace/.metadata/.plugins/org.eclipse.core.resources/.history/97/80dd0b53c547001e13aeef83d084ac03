@@ -1,0 +1,22 @@
+package conditionaloperators;
+
+public class example9 {
+
+	public static void main(String[] args) {
+		int age=18;
+		if(age==18)
+		{
+			System.out.println("valid to vote in election");
+			
+		}
+		else if((age<=15)&&(age==18)) 
+		{
+			System.out.println("invalid to vote in election");
+		}
+		else 
+		{
+			System.out.println("invalid votter id");
+		}
+	}
+
+}

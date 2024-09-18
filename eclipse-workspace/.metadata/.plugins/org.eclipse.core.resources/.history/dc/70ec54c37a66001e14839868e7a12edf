@@ -1,0 +1,22 @@
+package Throw;
+
+public class MyExceptionextendsRuntimeException {
+	public void MyException(String String) 
+	{
+		Super (String);
+	}
+}
+public class Demo
+{
+	
+	public static void main(String[] args) 
+	{
+	int i=20;
+	int j=0;
+	try 
+	{
+		i=18/i;
+		if(j==0)
+			Throw new MyException(String:"I dont want to print Zero");
+	}
+	}

@@ -1,0 +1,52 @@
+package Encapsulation;
+
+public class directors {
+	private String name1;
+	private String name2;
+	private String name3;
+	private String name4;
+	public String getname1()
+	{
+		return name1;
+	}
+	public void setname1(String r) 
+	{
+		name1=r;
+	}
+	public String getname2() 
+	{
+		return name2;
+	}
+	public void setname2(String n) 
+	{
+		name2=n;
+	}
+	public String getname3() 
+	{
+		return name3;
+	}
+	public void setname3(String m) 
+	{
+		name3=m;
+	}
+	public  String getname4() 
+	{
+		return name4;
+	}
+	public void setname4(String o) 
+	{
+		name4=o;
+		
+	}
+	class movies{
+	public static void main(String[] args) {
+	directors movies=new directors();
+	movies.setname1("aadukalam");
+	movies.setname2("Pollathavan");
+	movies.setname3("Viduthalai");
+	movies.setname4("vadaChennai");
+	System.out.println("vetrimaaran movies:"+movies.getname1()+','+movies.getname2()+','+movies.getname3()+','+movies.getname4());
+
+	}
+	}
+}

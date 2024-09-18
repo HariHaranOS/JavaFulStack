@@ -1,0 +1,21 @@
+
+package com.java;
+import java.lang.System;
+
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		var name=scan.nextLine();
+		var score=scan.nextLine();
+		var department=scan.nextLine();
+		System.out.print(name);
+		
+		
+
+	}
+
+}

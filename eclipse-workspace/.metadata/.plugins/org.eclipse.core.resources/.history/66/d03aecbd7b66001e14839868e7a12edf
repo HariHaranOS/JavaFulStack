@@ -1,0 +1,24 @@
+package classndobject1;
+
+import Encapsulation.Student;
+
+public class Students {
+	String name;
+	int age;
+	public Students(String name, int age) 
+	{
+		this.name=name;
+		this.age=age;
+	}
+	 class main{
+	public static void main(String[] args) {
+		Students student1=new Students("Hari",20);
+		Students student2=new Students("bob",29);
+		System.out.println("Student 1 Information:");
+		Student.student1();
+		System.out.println("\nStudent 2 Information:");
+		Student.student2();
+	}
+	 }
+}
+	

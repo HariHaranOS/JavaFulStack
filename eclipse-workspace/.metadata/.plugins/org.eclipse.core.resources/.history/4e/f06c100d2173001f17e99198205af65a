@@ -1,0 +1,19 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		int num1=Scan.nextInt();
+		if(num1>30 && num1<60) {
+			System.out.println("video gamer");
+		}
+		if(num1>60 && num1<90) {
+			System.out.println("iphone");
+		}
+		if (num1>90 ) {
+			System.out.println("Macbook");
+		}
+	}
+
+}

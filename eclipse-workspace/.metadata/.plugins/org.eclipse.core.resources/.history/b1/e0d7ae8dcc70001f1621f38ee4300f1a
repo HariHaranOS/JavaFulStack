@@ -1,0 +1,25 @@
+
+package com.java;
+import java.lang.System;
+
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		var name=scan.nextLine();
+		int score=scan.nextInt();
+		var department=scan.nextLine();
+//		int d=scan.nextInt();
+		int f=score/100;
+		System.out.println("My name is "+name);
+		System.out.println("My score is "+f);
+				System.out.println("My department is "+department);
+		
+		
+
+	}
+
+}

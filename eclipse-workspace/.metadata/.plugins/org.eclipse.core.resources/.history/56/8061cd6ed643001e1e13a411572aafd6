@@ -1,0 +1,18 @@
+package logicaloperator;
+
+public class exampleprogram {
+
+	public static void main(String[] args) {
+		int x = 5,y = 6;
+		int AND=5&6;
+		int EXOR=x^y;
+		int OR=5|6;
+		
+		System.out.println("the EXOR value is="+ EXOR);
+		System.out.println("the AND value is="+ AND);
+		System.out.println("the OR value is="+ OR);
+	    
+		
+	}
+
+}

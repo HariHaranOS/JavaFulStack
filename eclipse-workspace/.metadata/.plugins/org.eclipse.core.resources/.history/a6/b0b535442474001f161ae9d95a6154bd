@@ -1,0 +1,15 @@
+package Corejava;
+
+public class ForLoop {
+
+	public static void main(String[] args)
+
+	{
+		int num=2;
+		for(int i=10;i>=num;i--) {
+			System.out.println(i);
+			}
+
+	}
+
+}

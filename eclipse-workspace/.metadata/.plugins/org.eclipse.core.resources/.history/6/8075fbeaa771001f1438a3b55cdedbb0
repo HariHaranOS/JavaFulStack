@@ -1,0 +1,16 @@
+package Core.java;
+
+public class ArthmeticOperator {
+	
+	
+	public static void main(String[] args) {
+	int a=10;
+	int b=2;
+	System.out.println("Addition: "+a+b);
+	System.out.println("Subraction: "+(a-b));
+	System.out.println("Multiple: "+a*b);
+	System.out.println("Division: "+a/b);
+	System.out.println("Module: "+a%b);
+	}
+
+}

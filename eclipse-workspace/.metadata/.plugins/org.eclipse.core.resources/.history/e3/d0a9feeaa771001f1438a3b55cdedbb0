@@ -1,0 +1,11 @@
+package Core.java;
+
+public class Import {
+	import java.lang.System;
+	import java1.utill.Scanner;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

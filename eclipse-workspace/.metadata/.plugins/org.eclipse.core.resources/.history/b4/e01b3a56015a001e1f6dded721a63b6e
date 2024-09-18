@@ -1,0 +1,57 @@
+package OopsClassandObjects;
+
+public class Oops1 
+{
+	String name;
+	int age;
+public void oops1(String name,int age) {
+	this.name=name;
+	this.age=age;
+	
+}
+public String getname() 
+{
+	return name;
+}
+public int getage() 
+{
+	return age;
+}
+public static int result(String name2, String age2) {
+	// TODO Auto-generated method stub
+	return 0;
+}
+}
+class Course
+{
+	private static final String name = null;
+	private static final String age = null;
+	public static final String Coursename = null;
+	String courseName;
+	int courseId;
+	
+	public Course() 
+	{
+		this.courseName=courseName;
+		this.courseId=courseId;
+	}
+	public String getCoursename() 
+	{
+		return courseName;
+	}
+	public int courseId() 
+	{
+		return courseId;
+	}
+
+public class oops1{
+	public static void main(String[]args) 
+	{
+		
+	Oops1 oops=new Oops1();
+	oops.name="hari";
+	oops.age=20;
+	
+}
+}
+}

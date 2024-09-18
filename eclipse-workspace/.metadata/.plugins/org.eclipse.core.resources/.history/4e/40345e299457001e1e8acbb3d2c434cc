@@ -1,0 +1,12 @@
+package conditionaloperators;
+
+public class DoWhileLoopex3 {
+
+	public static void main(String[] args) {
+		int start=1;
+		int end=10;
+		System.out.println("Counting from "+start+" to "+end);
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package browser;
+
+import org.openqa.selenium.remote.server.handler.WebDriverHandler;
+import org.openqa.selenium.chrome.ChromeDriver;
+public class chrome {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "path//to/chromedriver.exe");
+		ChromeDriver driver=new  ChromeDriver();
+		driver.get("https://WWW.example.com");
+		driver.quit();
+		
+
+	}
+
+}

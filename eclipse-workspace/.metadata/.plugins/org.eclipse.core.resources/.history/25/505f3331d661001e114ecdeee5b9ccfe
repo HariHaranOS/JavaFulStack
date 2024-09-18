@@ -1,0 +1,33 @@
+package Encapsulation;
+
+public class Person {
+	private String name;
+private long number;
+public String getname() 
+{
+	return name;
+}
+public void setname(String r) 
+{
+	name=r;
+}
+public long getnumber() 
+{
+	return number;
+}
+public void setnumber(long n) 
+{
+	number=n;
+}
+
+
+public static void main(String[] args) {
+	Person p=new Person();
+	p.setname("hari");
+	p.setnumber(93);
+	System.out.println(p.getname()+"{"+p.getnumber()+"}");
+}
+
+}
+
+	

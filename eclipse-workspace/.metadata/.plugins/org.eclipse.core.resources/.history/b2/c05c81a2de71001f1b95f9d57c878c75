@@ -1,0 +1,20 @@
+package Corejava;
+import java.lang.System;
+import java.util.Scanner;
+public class Arithmeticbasic {
+	
+	
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		int a=Scan.nextInt();
+		int b=Scan.nextInt();
+		if(a>b) {
+		System.out.println("a is greater than b");
+		}
+		else{
+			System.out.println("a is smaller than b");
+		}
+	}
+
+}

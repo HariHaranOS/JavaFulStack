@@ -1,0 +1,16 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		int div=Scan.nextInt();
+		if(div*3==10) {
+			System.out.println("10 is Equal When multiple by 2");
+		}
+		else {
+			System.out.println("10 is not equal when div by 3 num");
+		}
+	}
+
+}

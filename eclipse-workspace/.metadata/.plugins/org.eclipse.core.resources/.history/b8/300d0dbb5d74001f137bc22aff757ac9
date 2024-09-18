@@ -1,0 +1,15 @@
+package ClassAndObject;
+
+public class ClassndObj {
+	void greeting() {
+		System.out.println("Vakkam");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassndObj obj1=new ClassndObj();
+		obj1.greeting();
+
+	}
+
+}

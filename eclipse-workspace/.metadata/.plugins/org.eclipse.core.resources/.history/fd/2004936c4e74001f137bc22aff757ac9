@@ -1,0 +1,18 @@
+package Corejava;
+
+import java.io.OutputStream;
+
+public class Functionsjava {
+	void greting()
+	{
+		System.out.println("Vannakam");
+		}
+	
+	public static void main(String[] args) {
+		
+		Functionsjava obj1=new Functionsjava();
+		obj1 greting();
+
+	}
+
+}

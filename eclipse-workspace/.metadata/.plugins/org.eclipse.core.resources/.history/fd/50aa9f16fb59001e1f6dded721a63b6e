@@ -1,0 +1,39 @@
+package OopsClassandObjects;
+
+public class Oops1 {
+	String name;
+	int rollno;
+	
+		public void display() 
+		{
+			System.out.println(name);
+			System.out.println(rollno);
+			
+		}
+		public  class Oops2
+		{
+			String subject;
+			int number;
+			
+			public void display() 
+			{
+				System.out.println(subject);
+				System.out.println(rollno);
+			}
+		public static void main(String[]args) 
+		{
+			Oops1 oops1=new Oops1();
+			oops1.name="hariharan";
+			oops1.rollno=46;
+		}
+		{		
+			Oops2 oops2=new Oops2();
+			oops2.subject="tamil";
+			oops2.number=383738;	
+			oops2.display();
+			
+			
+		}
+	}
+}
+

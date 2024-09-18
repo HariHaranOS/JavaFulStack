@@ -1,0 +1,61 @@
+package OopsClassandObjects;
+
+
+class Student {
+    private String name;
+    private int age;
+
+    
+    public Student(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+
+class Course {
+    private String courseName;
+    private int courseId;
+
+    // Constructor to initialize a Course object
+    public Course(String courseName, int courseId) {
+        this.courseName = courseName;
+        this.courseId = courseId;
+    }
+
+    // Getter methods for course attributes
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public int getCourseId() {
+        return courseId;
+    }
+}
+
+public class Oops1 {
+    public static void main(String[] args) {
+        // Create a Student object
+        Student student = new Student("Alice", 20);
+
+        // Create a Course object
+        Course course = new Course("Introduction to Java", 101);
+
+        // Access student and course information (no user output)
+        String studentName = student.getName();
+        int studentAge = student.getAge();
+
+        String courseName = course.getCourseName();
+        int courseId = course.getCourseId();
+
+        // You can use the data as needed (e.g., for further processing or other operations)
+    }
+}

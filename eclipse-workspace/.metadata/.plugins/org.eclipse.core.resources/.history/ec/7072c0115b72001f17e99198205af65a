@@ -1,0 +1,16 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		String Meghna=Scan.nextLine();
+		if(Meghna.equals(Meghna)) {
+			System.out.println("Surya meets ramya");
+		}
+		else {
+			System.out.println("Surya weds meghana");
+		}
+	}
+
+}

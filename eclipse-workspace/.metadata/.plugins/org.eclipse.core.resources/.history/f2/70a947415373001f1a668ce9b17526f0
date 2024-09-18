@@ -1,0 +1,21 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		int sub1=Scan.nextInt();
+		int sub2=Scan.nextInt();
+		int sub3=Scan.nextInt();
+		int sub4=Scan.nextInt();
+		int sub5=Scan.nextInt();
+		int add=(sub1+sub2+sub3+sub4+sub5)/2;
+		if(add<35) {
+			System.out.println("Addition class");
+		}
+		else{
+			System.out.println("you are good0");
+		}
+	}
+
+}

@@ -1,0 +1,11 @@
+package Core.java;
+
+public class IfElse {
+	Import Java.lang.System;
+
+	public static void main(String[] args) {
+		
+		}
+	}
+
+}

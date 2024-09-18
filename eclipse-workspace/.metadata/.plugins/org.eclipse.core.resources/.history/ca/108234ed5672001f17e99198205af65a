@@ -1,0 +1,12 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		String a= new String("one");
+		String b= new String("two");
+
+		System.out.println(a.equals(b));
+	}
+
+}

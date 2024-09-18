@@ -1,0 +1,32 @@
+package Encapsulation;
+
+public class Student {
+	private int roll_no;
+	private String name;
+	public int getroll_no() 
+	{
+		return roll_no;
+	}
+	public void setroll(int r) 
+	{
+		roll_no=r;
+	}
+	public String getname() 
+	{
+		return name;
+	}
+	public void setname(String n) 
+	{
+		name=n;
+	}
+}
+class college
+{
+	public static void main(String a[]) 
+	{
+		Student s=new Student();
+		s.setroll(28);
+		s.setname("hari");
+		System.out.println(s.getroll_no()+":"+s.getname());
+	}
+}

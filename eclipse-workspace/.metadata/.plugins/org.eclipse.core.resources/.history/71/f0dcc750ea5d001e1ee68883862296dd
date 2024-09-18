@@ -1,0 +1,23 @@
+package Encapsulation;
+
+public class Student {
+	private int roll_no=109;
+	private String name="hari";
+	public int getroll_no() 
+	{
+		return roll_no;
+	}
+	public String getname() 
+	{
+		return name;
+	}
+
+	
+ 
+	public static void main(String[] args) {
+		Student s=new Student();
+		System.out.println(s.getroll_no()+" : "+s.getname());
+
+	}
+	
+}

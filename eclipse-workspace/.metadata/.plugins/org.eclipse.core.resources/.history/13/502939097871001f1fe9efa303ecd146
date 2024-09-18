@@ -1,0 +1,16 @@
+package Core.java;
+
+public class IfElse {
+
+	public static void main(String[] args) {
+		boolean rain=true;
+		if(true) {
+			System.out.println("Bring Umperlla");
+		}
+		else {
+			System.out.println("Bring water for sun")
+		}
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package conditionaloperators;
+
+public class example1 {
+
+	public static void main(String[] args) {
+		boolean attendance=false;
+		if(attendance==true) 
+		{
+			System.out.println("attended classes");
+			
+		}
+		else
+		{
+			System.out.println("Not addendend class");
+		}
+	}
+
+}

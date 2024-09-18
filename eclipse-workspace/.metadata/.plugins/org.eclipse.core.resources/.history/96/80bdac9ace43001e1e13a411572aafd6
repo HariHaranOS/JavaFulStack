@@ -1,0 +1,25 @@
+package logicaloperator;
+
+public class exampleprogram {
+
+	public static void main(String[] args) {
+		int num1=30,num2=40,num3=50,num4=30,num5=30,num6=50;
+		System.out.println("AND OPERATORS:");
+		System.out.println("num1:"+num1);
+		System.out.println("num2:"+num2);
+		System.out.println("num3:"+num3);
+		System.out.println((num3>num1)&&(num1==num2));
+		
+		System.out.println("OR OPERATORS:");
+		System.out.println("num3:"+num3);
+		System.out.println("num4:"+num4);
+		System.out.println((num3>=num4)||(num4==num4));
+		
+		System.out.println("NOT OPERATORS:");
+		System.out.println("num5:"+num5);
+		System.out.println("num6:"+num6);
+		System.out.println(!(num5>num6));
+		
+	}
+
+}

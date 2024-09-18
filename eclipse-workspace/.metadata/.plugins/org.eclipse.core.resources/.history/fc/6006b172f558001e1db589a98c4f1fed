@@ -1,0 +1,29 @@
+
+class appform
+{
+	String name;
+	int rollno;
+	
+	
+	public void display() 
+	{
+		System.out.println(name);
+		System.out.println(rollno);
+		
+		
+	}
+	public static void main(String[]args) 
+	{
+		appform codeio=new appform();
+		
+		codeio.name="hari";
+		codeio.rollno=789;
+		codeio.display();
+		
+	}
+	
+}
+
+
+	
+

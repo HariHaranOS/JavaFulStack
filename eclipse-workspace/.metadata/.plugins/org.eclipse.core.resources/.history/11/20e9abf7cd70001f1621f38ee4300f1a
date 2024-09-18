@@ -1,0 +1,26 @@
+
+package com.java;
+import java.lang.System;
+
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		var name=scan.nextLine();
+		int score=scan.nextInt();
+		scan.nextLine();
+		var department=scan.nextLine();
+
+		int f=score/10;
+		System.out.println("My name is "+name);
+		System.out.println("My score is "+f);
+		System.out.println("My department is "+department);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,23 @@
+package Corejava;
+import java.util.Scanner;
+public class ForLoop {
+
+	public static void main(String[] args)
+
+	{
+//		int num=5;
+//		for(int i=1;i<=num;i++) {
+//			System.out.println(i);
+//			}
+		Scanner Scan=new Scanner(System.in);
+		int a=Scan.nextInt();
+		for(int i=a;i<=10;i=i+1) {
+			if(i%2==0) {
+				System.out.println("Even number:"+i);
+			}
+			
+		}
+	}
+
+	}
+

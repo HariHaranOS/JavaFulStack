@@ -1,0 +1,16 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		int num1=Scan.nextInt();
+		if(num1%3==10) {
+			System.out.println("hari");
+		}
+		else {
+			System.out.println("Kviya");
+		}
+	}
+
+}

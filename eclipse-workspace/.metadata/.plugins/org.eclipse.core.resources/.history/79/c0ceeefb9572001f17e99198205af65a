@@ -1,0 +1,16 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan=new Scanner(System.in);
+		int mark=Scan.nextInt();
+		if(mark>35) {
+			System.out.println("Pass");
+		}
+		else {
+			System.out.println("fail");
+		}
+	}
+
+}

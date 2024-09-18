@@ -1,0 +1,47 @@
+package Inheritaceexample;
+
+public class Calculator 
+{
+	public int add (int n1,int n2) 
+	{
+		return n1+n2;
+	}
+	public int sub(int n1,int n2) 
+	{
+		return n1-n2;
+	}
+	public class AdvanceCalculator extends Calculator
+	{
+		public int mul(int n1,int n2) 
+		{
+			return n1*n2;
+		}
+		public int div(int n1,int n2) 
+		{
+			return n1/n2;
+		}
+	}
+	public class ScientificCalc extends AdvanceCalculator
+	{
+		public double power(int n1,int n2) 
+		{
+			return Math.pow(n1, n2);
+		}
+	}
+	 
+	public static void main(String[] args) {
+		ScientificCalc c= new ScientificCalc ();
+		int r1=c.add(5, 7);
+		int r2=c.sub(20, 2);
+		int r3=c.mul(5, 10);
+		int r4=c.div(50, 5);
+		double r5=c.power(4, 9);
+		System.out.println("The addition of two numbers:"+r1);
+		System.out.println("The Subraction of two numbers:"+r2);
+		System.out.println("The Multiplication of two numbers:"+r3);
+		System.out.println("The Divison of two numbers:"+r4);
+		System.out.println("The mathematical power of two number:"+r5);
+
+	}
+	}
+}

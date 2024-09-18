@@ -1,0 +1,16 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		Scanner Scan= new Scanner(System.in);
+		int Income=Scan.nextInt();
+		if(Income/3==5) {
+			System.out.println("Scolorship is Available");
+		}
+		else {
+			System.out.println("Not eligible for Scolorship");
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		boolean cricket=true;
+		boolean footbal=true;
+		if(cricket || footbal) {
+			System.out.println("play");
+		}
+		else {
+			System.out.print("Don't play");
+		}
+		
+	}
+
+}

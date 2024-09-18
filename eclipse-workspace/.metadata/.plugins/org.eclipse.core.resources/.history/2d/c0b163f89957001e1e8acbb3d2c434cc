@@ -1,0 +1,29 @@
+package conditionaloperators;
+
+public class DowhileLoopex4 {
+
+	public static void main(String[] args) {
+		
+		 int i=1;
+		while(i<=50) 
+		{
+			int primeCheckNumber=3;
+			int divisionCount=0;
+			while(primeCheckNumber<=i/2) 
+			{
+				if(i%primeCheckNumber==0) 
+				{
+					divisionCount++;
+					break;
+				}
+				primeCheckNumber++;
+				
+			}
+			if(divisionCount==0 && i!=1) 
+			{
+				System.out.print(i+"");
+			}
+			i++;
+		}
+}
+}

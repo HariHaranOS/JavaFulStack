@@ -1,0 +1,16 @@
+package Corejava;
+import java.util.Scanner;
+public class StringEx {
+
+	public static void main(String[] args) {
+		boolean icecream=true;
+		boolean hungry=false;
+		if(icecream && hungry) {
+			System.out.println("Eat");
+		}
+		else {
+			System.out.println("Drink water");
+		}
+	}
+
+}

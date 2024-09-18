@@ -1,0 +1,19 @@
+package OopsClassandObjects;
+
+public class Oops1 {
+	String name;
+	int rollno;
+	public void display() 
+	{
+	System.out.println(name);
+	System.out.println(rollno);
+	}
+	public static void main(String[]args) 
+	{
+		Oops1 oops=new Oops1();
+		oops.name="hari";
+		oops.rollno=80;
+		oops.display();
+		
+	}
+}

@@ -1,0 +1,14 @@
+package ClassAndObject;
+
+public class ClassndObj {
+	int coffee=20;
+	int tea=10;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassndObj Server1=new ClassndObj();
+		System.out.println(Server1.coffee);
+
+	}
+
+}

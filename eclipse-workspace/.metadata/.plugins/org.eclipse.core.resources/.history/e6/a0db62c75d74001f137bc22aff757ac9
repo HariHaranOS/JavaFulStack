@@ -1,0 +1,20 @@
+package ClassAndObject;
+
+public class ClassndObj {
+	int a=0;
+	int b=0;
+	public void display() {
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassndObj hari=new ClassndObj();
+		hari.a=20;
+		hari.b=30;
+		
+
+	}
+
+}

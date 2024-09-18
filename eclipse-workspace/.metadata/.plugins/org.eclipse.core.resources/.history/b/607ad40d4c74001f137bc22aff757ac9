@@ -1,0 +1,33 @@
+package ClassAndObject;
+
+public class ClassndObj {
+	String name="";
+	String dpt="";
+	int pct=0;
+	int pasot=0;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ClassndObj detail1=new ClassndObj();
+		detail1.name="HariHaranOS";
+		detail1.dpt="BCA";
+		detail1.pct=72;
+		detail1.pasot=2023;
+		
+		
+		
+		ClassndObj detail2=new ClassndObj();
+		detail2.name="RaviKumar";
+		detail2.dpt="BSC";
+		detail2.pct=88;
+		detail2.pasot=2022;
+		
+		
+		
+		System.out.println(detail1.name+detail2.name);
+		
+		
+
+	}
+
+}

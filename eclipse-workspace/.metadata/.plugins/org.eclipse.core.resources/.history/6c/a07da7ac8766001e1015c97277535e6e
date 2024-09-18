@@ -1,0 +1,11 @@
+package selenium_basics;
+
+public class browser 
+{
+
+	public static void main(String[] args) 
+	{
+		WebDriver driver=new ChromeDriver();
+	}
+
+}

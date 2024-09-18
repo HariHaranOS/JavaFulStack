@@ -1,0 +1,25 @@
+package conditionaloperators;
+
+public class example1 
+{
+
+	public static void main(String[] args) 
+	{
+		char attendance='o';
+		
+		if(attendance=='p')
+		{
+			System.out.println("attended classes");
+		}
+		else if(attendance=='o') 
+		{
+			System.out.println("on-duty");
+			
+		}
+		else 
+		{
+			System.out.println("Not attended classes");
+		}
+	}
+
+}

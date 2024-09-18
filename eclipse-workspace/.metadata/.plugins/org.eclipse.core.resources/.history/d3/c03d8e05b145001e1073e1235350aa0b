@@ -1,0 +1,21 @@
+package conditionaloperators;
+
+public class example1 
+{
+
+	public static void main(String[] args) 
+	{
+		boolean Attendance= false;
+		if(Attendance==true) 
+		{
+			System.out.println("Attended classes");
+			
+		}
+		else 
+		{
+			System.out.println("not Attended classes:");
+			
+		}
+	}
+
+}

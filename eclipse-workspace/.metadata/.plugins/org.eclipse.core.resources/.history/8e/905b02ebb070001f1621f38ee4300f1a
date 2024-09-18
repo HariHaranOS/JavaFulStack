@@ -1,0 +1,21 @@
+
+package com.java;
+import java.lang.System;
+
+import java.util.Scanner;
+
+public class Basic {
+
+	public static void main(String[] args) 
+	{
+		Scanner hari = new Scanner(System.in);
+		Scanner haran = new Scanner(System.in);
+		String a= hari.nextLine();
+		int b= haran.nextInt();
+		
+		System.out.println("My name is "+a);
+	System.out.print("My age is "+b);
+
+	}
+
+}

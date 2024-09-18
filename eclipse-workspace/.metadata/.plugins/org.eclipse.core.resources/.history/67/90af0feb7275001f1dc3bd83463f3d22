@@ -1,0 +1,29 @@
+package Task8sep16;
+
+public class Task {
+//	1.)write a program to print two numbers using local variable
+      
+       int id=0;
+      String name=" ";
+      String fname=" ";
+      int salary=0;
+	public static void main(String[] args) {
+		Task csk=new Task();
+		csk.id=6;
+	csk.name="Hari";
+		System.out.println("Employee Id: "+csk.id+"Employee name: "+csk.name);
+
+	}
+
+}
+
+
+
+
+
+
+
+
+//1.)write a program to print two numbers using local variable
+//2.)write a program to multiple two number using instance varibales.
+//3.)write a program as method parameter to print employ details ,employ salary,employ bonus,based on the month.
